@@ -1,0 +1,25 @@
+/* 애드브리프 — 사이트 공통 스타일 */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+:root{--ink:#1b1f27;--slate:#5b6472;--rule:#e3e6eb;--wash:#f5f7fa;--blue:#2272eb;--blue-ink:#1b5fc7;--alert:#e5484d}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:var(--ink);font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+  font-size:16px;line-height:1.7;word-break:keep-all;font-feature-settings:"tnum"}
+a{color:var(--blue-ink);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid rgba(34,114,235,.35);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.top{border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
+.mark{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.mark i{display:inline-block;width:22px;height:22px;border-radius:6px;background:var(--blue);position:relative}
+.mark i:after{content:"";position:absolute;left:6px;right:6px;top:10px;height:2px;background:#fff;box-shadow:0 -5px 0 #fff,0 5px 0 rgba(255,255,255,.55)}
+nav.links{display:flex;gap:20px;font-size:14.5px}
+nav.links a{color:var(--slate);text-decoration:none}
+nav.links a:hover{color:var(--ink)}
+footer{border-top:1px solid var(--rule);margin-top:96px;padding:32px 0 48px;font-size:13.5px;color:var(--slate)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer p{margin:0}
+footer a{color:var(--slate)}
+.fine{font-size:12.5px;color:#8a929e;margin-top:6px}
+@media (max-width:640px){nav.links{gap:12px;font-size:13px;flex-shrink:0} .mark{font-size:16px} header.top .wrap{height:56px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

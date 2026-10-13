@@ -1,0 +1,18 @@
+/* 개인정보처리방침·이용약관 — 긴 글 읽기용 */
+.doc{max-width:720px;margin:0 auto;padding:56px 24px 0}
+.doc h1{font-size:32px;letter-spacing:-.02em;line-height:1.35;margin:0}
+.doc .eff{color:var(--slate);margin:10px 0 0;font-size:14.5px}
+.doc .toc{margin:28px 0 8px;padding:16px 20px;background:var(--wash);border-radius:12px;font-size:14.5px}
+.doc .toc a{margin-right:16px}
+.doc h2{font-size:20px;margin:44px 0 10px;letter-spacing:-.01em;line-height:1.4}
+.doc h3{font-size:16.5px;margin:24px 0 6px}
+.doc p,.doc li{font-size:15.5px;line-height:1.8}
+.doc ul{padding-left:20px}
+.doc table{width:100%;border-collapse:collapse;margin:12px 0 4px;font-size:14.5px;line-height:1.65}
+.doc th,.doc td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--rule)}
+.doc th{background:var(--wash);font-weight:650}
+.doc td:first-child{width:38%;min-width:150px}
+.doc table{min-width:520px}
+.doc .lang{margin-top:72px;padding-top:40px;border-top:2px solid var(--ink)}
+.doc code{font-size:13px;background:var(--wash);padding:1px 6px;border-radius:4px;word-break:break-all}
+.tbl{overflow-x:auto}
